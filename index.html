@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg myNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">STUCARE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./studentDetails.html">Students</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./addStudent.html">Add</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="overlay">
+            <div class="hero-text">
+                <h1>Welcome To STU-CARE!</h1>
+                <p>Your simple Student Management System to easily manage, view, and track all students.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features container my-5">
+        <div class="text-center mb-4">
+            <h2>Our Features</h2>
+            <p>Explore the main functionalities of STU-CARE</p>
+        </div>
+        <div class="row text-center">
+            <!-- Card 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="feature-card p-4">
+                    <a href="./addStudent.html"><h3>Add Student</h3></a> 
+                    <p>Easily add new students to the system in just a few clicks.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="feature-card p-4">
+                    <a href="./studentDetails.html"><h3>View Students</h3></a>
+                    <p>Quickly view all students and manage their information.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="feature-card p-4" >
+                    <a href="./studentSearch.html"><h3>Search Student</h3></a> 
+                    <p>Find students fast using our easy search functionality.</p>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="feature-card p-4">
+                    <a href="#contact"><h3>Contact</h3></a>
+                    <p>Simple Example of our Students in The Site.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATISTICS / QUICK FACTS SECTION -->
+    <section class="stats-section container my-5">
+        <div class="text-center mb-4">
+            <h2>Quick Data</h2>
+            <p>Some key numbers about STU-CARE</p>
+        </div>
+        <div class="row text-center">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="stat-card p-4">
+                    <h3 class="stat-number">60</h3>
+                    <p>Total Students</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="stat-card p-4">
+                    <h3 class="stat-number">3</h3>
+                    <p>Classes</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="stat-card p-4">
+                    <h3 class="stat-number">2</h3>
+                    <p>Teachers</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="./login.html" class="btn btn-primary btn-lg">Login</a>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer mt-5" id="contact">
+        <div class="container py-4">
+            <div class="row text-center text-md-start">
+                <!-- Logo / Brand -->
+                <div class="col-md-4 mb-3">
+                    <h4 class="footer-brand">STU-CARE</h4>
+                    <p>Your simple Student Management System to manage students efficiently.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="students.html">Students</a></li>
+                        <li><a href="addStudent.html">Add Student</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <p>Email: omaryasser.og@gmail.com</p>
+                    <p>Phone: +20 150 154 0801</p>
+                </div>
+            </div>
+            <hr class="mt-5" />
+            <p class="text-center mb-0">&copy; 2025 STU-CARE. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="./assets/bootstrap/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Students</title>
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/addstyle.css">
+    <link rel="stylesheet" href="./css/searchstyle.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo"><a href="./index.html">STUCARE</a></div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="add-student.html">Add Student</a></li>
+            <li><a href="./studentDetails.html">Students List</a></li>
+            <li><a href="./studentSearch.html" class="active">Search Students</a></li>
+        </ul>
+    </nav>
+
+    <!-- SEARCH CONTAINER -->
+    <section class="search-container">
+        <h2>Search Students</h2>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by name or level (e.g., 'Omar' or '2')" />
+        <button id="searchBtn" class="search-btn">Search</button>
+        
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date of Birth</th>
+                    <th>Level</th>
+                    <th>Arabic Grade</th>
+                    <th>English Grade</th>
+                    <th>Maths Grade</th>
+                    <th>French Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div id="noResults" class="no-results" style="display: none;">No students found matching your search.</div>
+    </section>
+
+    <script src="./js/studentSearch.js"></script>
+</body>
+</html>
